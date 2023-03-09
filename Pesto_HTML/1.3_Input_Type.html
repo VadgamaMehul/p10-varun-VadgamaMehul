@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Input Type</h1>
+    <input type="file" accept=".JPG" />
+
+    <h1>Field Set</h1>
+    Name: <input type="text" value="Mehul Vadgama">
+    <label for="">Email: <input type="email" value="@gmail.com"></label>
+    <br>
+    <fieldset>
+        <legend>Address</legend>
+        <label for="">House no: <input type="text"></label>
+        <label for="">Street name: <input type="text"></label>
+        <label for="">Pincode: <input type="number"></label>
+    </fieldset>
+    <br>
+    <form>
+        Email: <input type="email" pattern=".*@gmail.com" required/> <!-- here required means mandetory to fill -->
+        <input type="submit" name="Submit" id="">
+    </form>
+    <br>
+    <input type="tel"> <!--in mobile it open with numaric diler -->
+
+
+</body>
+</html>
